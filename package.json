@@ -1,0 +1,27 @@
+{
+  "name": "four-threejs-in-4kb",
+  "version": "1.0.0",
+  "description": "An extremely small WebGL 2 library with a three-like API, supporting  triangles/points/lines render modes, front/back/both cull sides, transparency (w/basic sorting), textures, MRT, and instancing.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "gl-matrix": "3.4.3",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "webgl2",
+    "animation",
+    "minimal",
+    "three.js",
+    "shaders"
+  ]
+}
